@@ -7,13 +7,13 @@ Microsoft Cloud-Native Workshop
 
 ## Pre-requisites
 
-You need an Azure subscription. If you do not have one, to get started quickly go to [https://my.visualstudio.com](https://my.visualstudio.com) and log in using your CorpNet login
+You need an Azure subscription. If you do not have one, to get started quickly go to [https://my.visualstudio.com](https://my.visualstudio.com).
+You can also get free or charge subscription from [https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers), no Credit Card needed.
 
-For MS employees, ask help from the proctor to create your own internal subscription. 
+For MS employees, ask help from the proctor to create your own MS internal subscription. 
  
 Check your subscription at : [https://account.azure.com/subscriptions](https://account.azure.com/subscriptions) 
-then go to [https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade ) --> remove filter "Show only subscriptions selected in the 
-global subscriptions filter" to see it 
+then go to [https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade ) --> remove filter "Show only subscriptions selected in the global subscriptions filter" to see it.
 
 #### Azure Cloud Shell
 
