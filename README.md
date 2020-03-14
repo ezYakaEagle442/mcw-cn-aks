@@ -63,6 +63,7 @@ complete -F __start_kubectl k
 ```
 
 Optionnaly : If you want to run PowerShell
+
 ```sh
 alias kn='kubectl config set-context --current --namespace '
 #If you run kubectl in PowerShell ISE , you can also define aliases :
@@ -75,6 +76,7 @@ function k([Parameter(ValueFromRemainingArguments = $true)]$params) { Write-Outp
 
 You can use the Azure Cloud Shell accessible [https://portal.azure.com](https://portal.azure.com) once you login with an Azure subscription. 
 The Azure Cloud Shell has the Azure CLI pre-installed and configured to connect to your Azure subscription as well as `kubectl` and `helm`.
+
 ```sh
 az --version
 az account list 
@@ -106,6 +108,7 @@ az account show
 ### Set-up environment variables
 
 <span style="color:red">/!\ IMPORTANT </span> : your **appName** & **cluster_name** values MUST BE UNIQUE
+
 ```sh
 
 # az account list-locations : francecentral | northeurope | westeurope
@@ -160,6 +163,7 @@ cat .ssh/fabmedical.pub
 ```
 
 ### Create Service Principal
+
 ```sh
 # https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal
 # https://docs.microsoft.com/en-us/cli/azure/ad/sp?view=azure-cli-latest#az-ad-sp-create-for-rbac
@@ -186,9 +190,9 @@ echo "Service Principal Tenant ID:" $sp_tenant_id
 echo $sp_tenant_id > sp_tenant_id.txt
 # sp_tenant_id=`cat sp_tenant_id.txt`
 
-
 ```
 ### Create RG
+
 ```sh
 az group create --name $rg_name --location $location
 ```
@@ -208,6 +212,7 @@ rm -rf MCW-Cloud-native-applications/.git
 [https://github.com/microsoft/MCW-Cloud-native-applications/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Cloud-native%20applications.md#task-4-create-an-ssh-key](https://github.com/microsoft/MCW-Cloud-native-applications/blob/master/Hands-on%20lab/Before%20the%20HOL%20-%20Cloud-native%20applications.md#task-4-create-an-ssh-key)
 
 ```sh
+
 cd MCW-Cloud-native-applications/Hands-on\ lab/arm/
 code azuredeploy.parameters.json
 
